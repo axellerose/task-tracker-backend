@@ -1,0 +1,36 @@
+{
+  "name": "task-tracker-backend",
+  "version": "1.0.0",
+  "description": "task tracking app - backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axellerose/task-tracker-backend.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "mysql",
+    "rest",
+    "api"
+  ],
+  "author": "axellerose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axellerose/task-tracker-backend/issues"
+  },
+  "homepage": "https://github.com/axellerose/task-tracker-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.2",
+    "nodemon": "^2.0.14",
+    "sequelize": "^6.8.0"
+  }
+}
